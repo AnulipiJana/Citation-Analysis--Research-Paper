@@ -6,10 +6,10 @@ This project focuses on Citation Network Analysis, to recommend best research pa
 2. generate information like shapes, missing values, duplicates about the dataset
 
 ## Module2: Build & Visualize networks
-*Author Citation Network*: connection between a auther cited by another authors
-*Co-Authorship*: connection beteenw authers work together in a paper
-*Paper Citation*: connection between papers cited by each other
-**STEPS**
+1. *Author Citation Network*: connection between a auther cited by another authors
+2. *Co-Authorship*: connection beteenw authers work together in a paper
+3. *Paper Citation*: connection between papers cited by each other
+### STEPS
 1. Create citation networks
 2. Visualize citation networks
 3. Calculate degree_centrality, closeness_centrality, betweenness_centrality, eigenvector_centrality
