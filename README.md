@@ -17,3 +17,6 @@ This project focuses on Citation Network Analysis, to recommend best research pa
 5. User Quiry to search best recommend paper as per their criteria.
 
 ## Module3: Derived & Modify dataset for model training
+## Module4: Train & Test Model
+1. *XGBOOST*
+2. *Neural Network*
