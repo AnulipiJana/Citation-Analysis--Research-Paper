@@ -22,8 +22,10 @@ This project focuses on Citation Network Analysis to recommend most relevant res
 3. Find most influential authors based on h-index and most relevant papers based on centrality measures
 4. User Query to recommend research papers.
 
-## Module3: Derived & Modify dataset for model training
+## Module3: Fearure Engineering
 
 ## Module4: Train & Test Model
 1. *XGBOOST*
 2. *Neural Network*
+
+## Module5: User Interface
