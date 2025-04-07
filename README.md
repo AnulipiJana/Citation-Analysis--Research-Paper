@@ -29,3 +29,5 @@ This project focuses on Citation Network Analysis to recommend most relevant res
 2. *Neural Network*
 
 ## Module5: User Interface
+![Screenshot 2025-04-04 192333](https://github.com/user-attachments/assets/eb6ca00b-1122-4f80-ac5c-e329ff0982fb)
+
