@@ -1,5 +1,5 @@
 # Citation Analysis
-This project focuses on Citation Network Analysis, to recommend best research papers based on various factors such as page ranking, h-index, author popularity, number of publications and user-defined criteria. The project visualized graph-based network using citation data and help to analyze best research papers.
+This project focuses on Citation Network Analysis to recommend most relevant research papers based on various factors such as pageranking, h-index, author influence, number of publications and user-defined criteria. The project analyzes graph-based network using citation data and recommends corresponding research papers.
 
 ### Impact
 1. Quantifying academic influence
@@ -8,20 +8,19 @@ This project focuses on Citation Network Analysis, to recommend best research pa
 4. Predicting future research directions
 
 ## Module1: Install Libraries & Preprocess Data
-1. install and import libraries like dask-expr, python-louvain, prophet, pandas, numpy, networkx, matplotlib, ast etc. Setup require environment in google collab
-2. generate information like shapes, missing values, duplicates about the dataset
-3. Fill null values in references, abstract and auther column.
+1. install and import libraries like dask-expr, python-louvain, prophet, pandas, numpy, networkx, matplotlib, ast etc. Setup require environment in google colab
+2. Generate information about the dataset like shape, missing values, duplicates, etc. 
+3. Fill null values in references, abstract and author column.
 
 ## Module2: Build & Visualize networks
-1. *Author Citation Network*: connection between a auther cited by another authors
-2. *Co-Authorship*: connection beteenw authers work together in a paper
-3. *Paper Citation*: connection between papers cited by each other
+1. *Author Citation Network*: connection between an author cited by other authors
+2. *Co-Authorship Network*: connection between authors who have collaborated in any research paper
+3. *Paper Citation Network*: connection between a research papers cited by other research papers
 ### STEPS
-1. Create citation networks
-2. Visualize citation networks
-3. Calculate degree_centrality, closeness_centrality, betweenness_centrality, eigenvector_centrality
-4. Find best authors and papers based on centrality measure
-5. User Quiry to search best recommend paper as per their criteria.
+1. Create and visualize various networks
+2. Calculate degree_centrality, closeness_centrality, betweenness_centrality, eigenvector_centrality of each network
+3. Find most influential authors based on h-index and most relevant papers based on centrality measures
+4. User Query to recommend research papers.
 
 ## Module3: Derived & Modify dataset for model training
 
